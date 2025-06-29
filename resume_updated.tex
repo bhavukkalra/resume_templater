@@ -1,0 +1,205 @@
+
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Bhavuk Kalra }} & Email: \href{mailto:bhavukkalra1786@gmail.com}{bhavukkalra1786@gmail.com}\\
+
+  \href{https://bhavukkalra.github.io/}{Portfolio: bhavukkalra.github.io} &
+
+   {Contact: +91-82641-71522} \\
+
+  \href{https://github.com/xprilion}{Github: ~~github.com/bhavukka} \\
+
+  % \href{}{Contact: +91-82641-71522} \\
+
+  \href{https://www.linkedin.com/in/bhavuk-kalra-256b67151/}{LinkedIn: linkedin.com/in/bhavuk-kalra-256b67151/} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+
+%-----------EDUCATION-----------------
+
+
+
+\vspace{-5pt}
+\vspace{5pt}
+
+\section{Experience}
+  \resumeSubHeadingListStart
+        \resumeSubheading
+		{J.P Morgan Chase and Co.}{In Office}
+		{Senior Software Engineer (Full-Time)}{June 2021 - Present}
+		\resumeItemListStart
+        \resumeItem{Modernized cloud infrastructure}
+          {Led the migration of on-prem batch systems to AWS-based solutions, processing 3.6M+ records/day with Databricks and SpringBoot, boosting ingestion speed by 40\%, and cutting DBU costs by 35% ($100K+ annual savings).}{
+          across multiple production workloads, cutting DBU consumption by 35\% and delivering \$100K+ annual cost savings.}
+        \resumeItem{Optimized production workloads}{Improved containerized microservices by fine-tuning Kubernetes pods and Databricks clusters, achieving 35\% compute reduction through efficient resource management and Terraform-based orchestration.}
+
+        \resumeItem{Developed scalable RESTful APIs}{Built and maintained high-throughput backend services using Spring Framework, AWS (DynamoDB, SQS, SNS), and Terraform, improving ETL pipeline performance by 50\% for production-scale use cases.}
+
+        \resumeItem{Mentored junior developers}{Conducted code reviews, design sessions, and onboarding walkthroughs to foster a collaborative, high-quality engineering culture.}
+
+        \resumeItem{TechStack}
+          {Java, SpringBoot, Hibernate, AWS (DynamoDB, SQS, SNS, EC2), Databricks, Terraform, Docker, Kubernetes, React.js, SQL}
+		\resumeItemListEnd
+
+
+\vspace{5pt}
+        \resumeSubheading {{\faExternalLink Hoppscotch India Pvt. Ltd.}\href{https://github.com/hoppscotch/hoppscotch/discussions/1636}{[LINK]} }{Remote}
+    {Software Developer (Internship)}{March 2021 - June 2021}
+    \resumeItemListStart
+        \resumeItem{Developed multi-platform applications}
+          {Contributed to the launch of Coinbase in India by building accessible cryptocurrency solutions for web, iOS, and Android platforms, enhancing user engagement by 30\%.}
+        \resumeItem{Optimized real-time application performance}
+          {Designed systems to deliver high-frequency, low-latency updates, improving transaction processing speed by 25\% and minimizing user wait times.}
+        \resumeItem{Collaborated on cross-functional teams}
+          {Worked closely with engineers, designers, and product managers to translate technical vision into actionable roadmaps, ensuring project alignment and timely delivery across departments.}
+        \resumeItem{Wrote high-quality tested code}
+          {Implemented rigorous testing protocols for developed software, achieving a 95\% code coverage rate and reducing bug reports post-launch by 50\%.}
+        \resumeItem{Fostered a culture of feedback and growth}
+          {Actively sought and provided constructive feedback within team settings, contributing to a 20\% increase in collective team productivity and personal development.}
+        \resumeItem{Enhanced security protocols}
+          {Implemented advanced security measures for fraud prevention in systems, safeguarding user data and reducing exposure to security threats by 40\%.}
+        \resumeItem{TechStack}
+          {Golang, MongoDB, AWS, Docker, Postgres, Ruby, Rails, React Native}
+      \resumeItemListEnd
+
+      \vspace{5pt}
+
+
+
+\resumeSubHeadingListEnd
+
+\vspace{+5pt}
+
+%-----------Publications-----------------
+\section{Technical Publications}
+\begin{description}[font=$\bullet$]
+\item {Generalized Agent for Solving Higher Board States of Tic Tac Toe Using RL in IEEE PDGC-2022}\textbf{\href{https://arxiv.org/abs/2212.12252}{[LINK]}}
+\item {Advanced Regex-Optimized Framework for Large Scale Data Quality Assurance}
+
+\vspace{-5pt}
+
+
+
+\end{description}
+
+\vspace{+5pt}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Thapar Institute of Engineering and Technology}{Punjab, India}
+      {Bachelor of Engineering - Computer Engineering;}{2018 - 2022}
+
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{{\faExternalLink Password Management System}\href{https://www.youtube.com/watch?v=1LP-bFeBr5k}{[LINK]}}{A MERN stack based online Password Management Portal}\begin{enumerate}
+    \item Enterprise-grade backend: Designed RESTful services in Node.js with JWT and 2FA integration using AWS SES, following security-first design and Terraform-based provisioning.
+    \item End-to-end testing and CI/CD: Implemented TDD using Jest and Cypress, with automated deployment via Docker and GitHub Actions for consistent feature delivery.
+    \item Role-based access control: Managed CRUD operations on MongoDB with schema validation and session handling, supporting multi-user roles and audit-ready logs.
+\end{enumerate}
+\vspace{-4pt}
+\resumeSubItem{{\faExternalLink Poll Taker App}\href{https://github.com/bhavukkalra/poll_taker}{[LINK]}}{Online Poll taker App build upon MERN stack}\begin{enumerate}
+    \item Microservice architecture: Built containerized backend services with RESTful APIs and real-time vote visualization using ChartJS; deployed with Kubernetes for scalable rollout.
+    \item Infrastructure-as-Code: Managed CI pipelines and environment config using Docker and Kubernetes, with potential extensions to Terraform for full IaC integration.
+    \item Tech Stack: Node.js, MongoDB, React, Redux, Docker, Kubernetes, ChartJS, Jest
+\end{enumerate}
+
+\vspace{-4pt}
+
+
+
+\resumeSubHeadingListEnd
+\vspace{-4pt}
+%-----------Awards-----------------
+\section{Awards and Certifications}
+\begin{description}[font=$\bullet$]
+\item {Runner's-up at JP Morgan's Code for Good Hackathon}
+\vspace{-5pt}
+\item {AWS Certified Developer Associate}
+\vspace{-5pt}
+\item {Hacky New Year Hackathon Winner organized by MLH}
+
+\end{description}
+
+
+
+\end{document}

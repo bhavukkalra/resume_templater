@@ -1,0 +1,57 @@
+Ready to be pushed beyond what you think you’re capable of?
+At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system.
+To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pressure and privilege of working with high caliber colleagues, and who actively seeks feedback to keep leveling up. We want someone who will run towards, not away from, solving the company’s hardest problems.
+Our work culture is intense and isn’t for everyone. But if you want to build the future alongside others who excel in their disciplines and expect the same from you, there’s no better place to be.
+While many roles at Coinbase are remote-first, we are not remote-only. In-person participation is required throughout the year. Team and company-wide offsites are held multiple times annually to foster collaboration, connection, and alignment. Attendance is expected and fully supported.
+About the job
+
+
+Ready to be pushed beyond what you think you’re capable of?
+At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system.
+To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pressure and privilege of working with high caliber colleagues, and who actively seeks feedback to keep leveling up. We want someone who will run towards, not away from, solving the company’s hardest problems.
+Our work culture is intense and isn’t for everyone. But if you want to build the future alongside others who excel in their disciplines and expect the same from you, there’s no better place to be.
+Team
+
+
+Coinbase is seeking a software engineer to join our India pod to drive the launch and growth of Coinbase in India. You will solve unique, large scale, highly complex technical problems. You will help build the next generation of systems to make cryptocurrency accessible to everyone across multiple platforms (www, iOS, Android), operating real-time applications with high frequency, low latency updates, keeping the platform safe from fraud, enabling delightful experiences, and managing the most secure, dockerized infrastructure running in the cloud.
+What you’ll be doing (ie. job duties):
+
+
+
+Work with engineers, designers, product managers and leadership to turn our product and technical vision into a tangible roadmap every quarter
+
+Write high quality, well tested code to meet the needs of your customers
+
+
+What we look for in you (ie. job requirements):
+
+
+
+1 year experience in software engineering/development
+
+You write high quality, well tested code to meet the needs of your customers.
+
+You're excited about hard problems and getting things done.
+
+You are self-motivated and committed to personal growth
+
+You approach problems with positive energy
+
+You’re passionate about building an open financial system that brings the world together.
+
+
+Nice to haves:
+
+
+You’ve worked on either backend or frontend teams using Golang, MongoDB, AWS, Docker, Postgres, Ruby, Rails or React Native
+Job #: P69853
+
+
+Please be advised that each candidate may submit a maximum of four applications within any 30-day period. We encourage you to carefully evaluate how your skills and interests align with Coinbase's roles before applying.
+Commitment to Equal Opportunity
+Coinbase is committed to diversity in its workforce and is proud to be an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, creed, gender, national origin, age, disability, veteran status, sex, gender expression or identity, sexual orientation or any other basis protected by applicable law. Coinbase will also consider for employment qualified applicants with criminal histories in a manner consistent with applicable federal, state and local law. For US applicants, you may view the Know Your Rights notice here. Additionally, Coinbase participates in the E-Verify program in certain locations, as required by law.
+
+
+Coinbase is also committed to providing reasonable accommodations to individuals with disabilities. If you need a reasonable accommodation because of a disability for any part of the employment process, please contact us at accommodations[at]coinbase.com to let us know the nature of your request and your contact information. For quick access to screen reading technology compatible with this site click here to download a free compatible screen reader (free step by step tutorial can be found here).
+Global Data Privacy Notice for Job Candidates and Applicants
+Depending on your location, the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) may regulate the way we manage the data of job applicants. Our full notice outlining how data will be processed as part of the application procedure for applicable locations is available here. By submitting your application, you are agreeing to our use and processing of your data as required. For US applicants only, by submitting your application you are agreeing to arbitration of disputes as outlined here.

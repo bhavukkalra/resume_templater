@@ -1,0 +1,225 @@
+
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Bhavuk Kalra }} & Email: \href{mailto:bhavukkalra1786@gmail.com}{bhavukkalra1786@gmail.com}\\
+
+  \href{https://bhavukkalra.github.io/}{Portfolio: bhavukkalra.github.io} &
+
+   {Contact: +91-82641-71522} \\
+
+  \href{https://github.com/xprilion}{Github: ~~github.com/bhavukka} \\
+
+  % \href{}{Contact: +91-82641-71522} \\
+
+  \href{https://www.linkedin.com/in/bhavuk-kalra-256b67151/}{LinkedIn: linkedin.com/in/bhavuk-kalra-256b67151/} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+
+%-----------EDUCATION-----------------
+
+
+
+\vspace{-5pt}
+\vspace{5pt}
+
+\section{Experience}
+  \resumeSubHeadingListStart
+        \resumeSubheading
+		{J.P Morgan Chase and Co.}{In Office}
+		{Senior Software Engineer (Full-Time)}{June 2021 - Present}
+		\resumeItemListStart
+        \resumeItem{Led the cloud migration of on-prem}
+          {infrastructure to AWS, enabling scalable processing of 3.6M+ records/day across 54 data pipelines; boosted data ingestion efficiency by 40\% using Databricks workflows.}
+        \resumeItem{Optimized compute resource usage}
+          {across multiple production workloads, cutting DBU consumption by 35\% and delivering \$100K+ annual cost savings.}
+        \resumeItem{Handling Large Scale Data}{leveraging Databricks external Delta tables, reducing execution time from 30 minutes to 15 minutes per run (a 50\% improvement), processing 1.3 Million+ records daily.}
+
+        \resumeItem{TechStack}
+          {Java, SpringBoot, SpringWeb, Microservices, AWS, Kubernetes}
+		\resumeItemListEnd
+
+
+\vspace{5pt}
+        \resumeSubheading {{\faExternalLink Hoppscotch India Pvt. Ltd.}\href{https://github.com/hoppscotch/hoppscotch/discussions/1636}{[URL]} }{Remote}
+    {Software Developer (Internship)}{March 2021 - June 2021}
+    \resumeItemListStart
+        \resumeItem{Mock-Server}
+          {Integration to streamline API testing, enabling developers to simulate responses and reducing debugging time by ~40\%.}
+
+          \resumeItem{handling 100,000+ API requests per month}
+          {by developing 4 customizable endpoints (GET, POST, PUT, DELETE), allowing users to create mock routes and serve predefined JSON responses}
+          \resumeItem{impacting a 200,000+ active user base}{improving API testing efficiency by 30\% , reducing backend load by ~20\%.}
+          \resumeItem{TechStack}
+          {ReactJS, SpringBoot, PostgreSQL, AWS, GraphQL}
+      \resumeItemListEnd
+
+
+		\vspace{5pt}
+    \resumeSubheading
+		{{\faExternalLink Turingo(Now Ootsuk.com)}\href{https://www.ootsuk.com/explore}{[URL] }}{Remote}
+		{Machine Learning Intern (Internship)}{December 2019 - March 2020}
+		\resumeItemListStart
+        \resumeItem{Project responsibilities}
+          {Engineered an automated question generator using BERT transformer models and Python}
+          \resumeItem{Impact}{achieved 95\% accuracy in question relevance as scored by subject matter experts, reduced manual workload by 40\%.}
+        \resumeItem{TechStack}
+          {NLTK, Spacy, NumPy, Pandas}
+
+
+		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{+5pt}
+
+%-----------Publications-----------------
+\section{Technical Publications}
+\begin{description}[font=$\bullet$]
+\item {Generalized Agent for Solving Higher Board States of Tic Tac Toe Using RL in IEEE PDGC-2022}\textbf{\href{https://arxiv.org/abs/2212.12252}{[URL]}}
+\item {Advanced Regex-Optimized Framework for Large Scale Data Quality Assurance}
+
+\vspace{-5pt}
+
+
+
+\end{description}
+
+\vspace{+5pt}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Thapar Institute of Engineering and Technology}{Punjab, India}
+      {Bachelor of Engineering - Computer Engineering}{2018 - 2022}
+
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{{\faExternalLink Password Management System}\href{https://www.youtube.com/watch?v=1LP-bFeBr5k}{[URL]}}{A MERN stack based online Password Management Portal}\begin{enumerate}
+    \item Used JSON Web Tokens for Authentication,Two-Factor Authentication by consuming Vonage message sending API
+    \item Drafting UI Test cases and User stories. Link here \href{https://github.com/bhavukkalra/Password_Management_System/blob/master/TestCases.pdf}{User Edge cases Doc}
+    \item Database CRUD operations along with Password Sharing amongst users via username
+\end{enumerate}
+\vspace{-4pt}
+\resumeSubItem{{\faExternalLink Poll Taker App}\href{https://github.com/bhavukkalra/poll_taker}{[URL]}}{Online Poll taker App build upon MERN stack}\begin{enumerate}
+    \item Users can create and vote on polls created by others. Analyse the results of the polls using Pie-Charts(ChartJS)
+    \item Modular Design, Redux for state management and seamless user experience
+\end{enumerate}
+
+\vspace{-4pt}
+\resumeSubItem{{\faExternalLink Tic-Tac-Toe Min-Max}\href{https://github.com/bhavukkalra/TicTacToe_Min_Max}{[URL]}}{Research on Generalized Agent for Solving Higher Board States using Reinforcement Learning}\begin{enumerate}
+    \item A Graphical project to Analyze the time taken between making moves by AI utilizing the Min-Max Algorithm
+    \item Analyzed Min-Max further improved with $\alpha-\beta$ pruning
+\end{enumerate}
+
+\resumeSubHeadingListEnd
+\vspace{-4pt}
+%-----------Awards-----------------
+\section{Awards and Certifications}
+\begin{description}[font=$\bullet$]
+\item {Runner's-up at JP Morgan's Code for Good Hackathon}
+\vspace{-5pt}
+\item {AWS Certified Developer Associate}
+\vspace{-5pt}
+\item {Hacky New Year Hackathon Winner organized by MLH}
+
+\end{description}
+
+
+
+
+
+
+\vspace{-5pt}
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+    {{\faExternalLink Gold Microsoft Learn Student Ambassador}\href{https://studentambassadors.microsoft.com/en-US/profile/4862}{[URL]}}{}
+    {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Sept 2019 - July 2022}
+\vspace{5pt}
+    % \vspace{10pt}\textbf{\large{Community Experience}}
+    \resumeSubheading
+    {{\faExternalLink Numpy Open-Source Contributor}\href{https://docs.google.com/document/d/1WlU-MikUT5GVdb_jWc6x1ND6rsAJmpAulcdx5mG_mfk/edit?usp=sharing}{[URL]}}{}
+    {Authored 5+ Gitpod 'How-To' guides that cut support inquiries by 15\% and onboarded 100+ users}{}
+
+\resumeSubHeadingListEnd
+
+\end{document}

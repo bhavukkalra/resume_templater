@@ -5,7 +5,9 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 
-NON_NEGOTIABLES = "NON Negotialble - Never include the company name from the job description in the final output"
+NON_NEGOTIABLES = ("NON Negotialble - 1. Never include the company name from the job description in the final output"
+                   "2. Always maintain the number of input points from the input i.e it shouldn't be never less than the number of points inputed "
+                   "either always the same or more")
 
 # Print or use the key
 if api_key:

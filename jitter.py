@@ -48,11 +48,11 @@ data modeling is highly desirable.
 """
 
 # Ensure you have this file with %KEYWORDS_PLACEHOLDER in your Skills section
-base_tex_file = "resume_template.tex"
-modified_tex_file = "resume_fusion.tex"
-output_pdf_file = "resume_fusion.pdf"
+# base_tex_file = "resume_template.tex"
+modified_tex_file = "resume_updated.tex"
+# output_pdf_file = "resume_fusion.pdf"
 
 # --------- RUN SCRIPT ---------
-keywords = extract_keywords(job_description)
-insert_keywords_into_resume(base_tex_file, modified_tex_file, keywords)
+# keywords = extract_keywords(job_description)
+# insert_keywords_into_resume(base_tex_file, modified_tex_file, keywords)
 compile_latex(modified_tex_file)
